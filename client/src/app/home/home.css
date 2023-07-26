@@ -1,0 +1,42 @@
+.home > .header{
+    background-color: yellow;
+}
+
+.home > .header img{
+    height: 100px;
+    aspect-ratio: auto;
+    margin: 10px;
+}
+
+
+/****** turn-list *******/
+
+.turn-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.turn-list input{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	visibility: hidden;
+    margin: 0;
+}
+
+.turn-list label{
+    height: 50px;
+    line-height: 50px;
+}
+
+.turn-list span{
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+}
+
+.turn-list input:checked + span{
+    background-color: aqua;
+}

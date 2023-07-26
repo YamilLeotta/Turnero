@@ -1,0 +1,21 @@
+.header{
+    width: 80%;
+    background-color: red;
+    align-items: stretch;
+  }
+  
+.header img{
+    width: 25%;
+    height: 100%;
+    align-self: center;
+  }
+  
+.content{
+    display: inline-block;
+  }
+  
+@media screen and (max-width: 700px){
+    .landing .header{
+        width: 100%;
+    }
+}
