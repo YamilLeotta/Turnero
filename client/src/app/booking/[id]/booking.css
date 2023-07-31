@@ -1,8 +1,8 @@
-.home > .header{
+.booking > .header{
     background-color: yellow;
 }
 
-.home > .header img{
+.booking > .header img{
     height: 100px;
     aspect-ratio: auto;
     margin: 10px;
@@ -11,11 +11,17 @@
 
 /****** turn-list *******/
 
+.content label{
+    line-height: 50px;
+}
+
+.content select{
+    min-height: 30px;
+    margin: 5px;
+}
+
 .turn-list{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-top: 20px;
 }
 
 .turn-list input{
@@ -26,11 +32,6 @@
     margin: 0;
 }
 
-.turn-list label{
-    height: 50px;
-    line-height: 50px;
-}
-
 .turn-list span{
     padding: 10px;
     margin: 10px;
@@ -39,4 +40,24 @@
 
 .turn-list input:checked + span{
     background-color: aqua;
+}
+
+
+/******** Obs ***********/
+
+.obs{
+    width: 80%;
+    height: 100px;
+    margin: 20px;
+    resize: vertical;
+}
+
+
+/******** Confirm *********/
+
+.confirm{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: yellow;
 }

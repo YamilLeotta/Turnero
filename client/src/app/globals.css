@@ -8,8 +8,17 @@ body, main, section, .header-info{
   display: flex;
 }
 
+a{
+  text-decoration: none;
+}
+
 body, main, h1, h3, h4{
   margin: 0;
+}
+
+h4{
+  padding: 5px;
+  display: inline-block;
 }
 
 body{
@@ -50,8 +59,9 @@ footer{
 
 .content{
   width: 90%;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
   background-color: green;
+  display: inline-block;
 }
 
 @media screen and (max-width: 700px){

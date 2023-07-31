@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Barbería Los Ángeles - Turnos Web',
-  description: 'App de turnos diseñada por: Germán y Yamil',
+  description: 'App de turnos diseñada por: Pirulo',
 }
 
 export default function RootLayout({ children }) {

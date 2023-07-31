@@ -1,4 +1,5 @@
-import './landing.css'
+import Link from 'next/link';
+import './landing.css';
 
 export default function Landing() {
   return (
@@ -14,10 +15,16 @@ export default function Landing() {
       <section className="content">
         <h2>Elije el servicio para solicitar turno</h2>
         <div>
-          <button>Corte $154</button>
-          <button>Corte $154</button>
-          <button>Corte $154</button>
-          <button>Corte $154</button>
+          <Link href="/booking/1"><button>Corte $154</button></Link>
+          <Link href="/booking/2"><button>Corte $154</button></Link>
+          <Link href="/booking/3"><button>Corte $154</button></Link>
+          <Link href="/booking/4"><button>Corte $154</button></Link>
+          <Link href="/booking/5"><button>Corte $154</button></Link>
+          <Link href="/booking/6"><button>Corte $154</button></Link>
+          <Link href="/booking/7"><button>Corte $154</button></Link>
+          <Link href="/booking/8"><button>Corte $154</button></Link>
+          <Link href="/booking/9"><button>Corte $154</button></Link>
+          <Link href="/booking/10"><button>Corte $154</button></Link>
         </div>
       </section>
     </main>
